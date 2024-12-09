@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wanna get involved?</title>
+    <link rel="icon" href="favicon.ico" sizes="512x512" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Protest+Strike&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            color: #444; /* Changed to match homepage */
+            background-color: #fcf8e3; /* Changed to match homepage */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffa500; /* Changed to match homepage */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px; 
+            font-weight: 600;
+            font-family: 'Roboto Condensed'; 
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #8b0000; /* Changed to match homepage */
+            font-size: 32px; 
+            font-family: 'Roboto Condensed'; 
+        }
+
+        p {
+            font-size: 20px; 
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            font-size: 18px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .checkbox-group {
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group label {
+            font-size: 18px; 
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .cta-submit {
+            background-color: #8b0000; /* Changed to match homepage */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 20px; 
+            font-family: 'Protest Strike'; 
+        }
+
+        .cta-submit:hover {
+            background-color: #a52a2a; /* Changed to match homepage hover color */
+        }
+
+        footer {
+            background-color: #444; /* Changed to match homepage */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 14px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wanna get involved?</h1>
+    </header>
+
+    <section>
+        <h2>Get Involved in Climate Action:</h2>
+        <p>
+            We are excited to have you join us in making a difference! Please fill out the form below to get started.
+        </p>
+        
+        <form id="volunteer-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <h2>How Would You Like to Volunteer?</h2>
+            <div class="checkbox-group">
+                <label style="font-family: Roboto Condensed; font-weight: bold;"><input type="checkbox" name="volunteer-options" value="Community Clean-ups"><b>Community Clean-ups</b></label><br>
+                <label style="font-family: Roboto Condensed; font-weight: bold;"><input type="checkbox" name="volunteer-options" value="Tree Planting"><b>Tree Planting</b></label><br>
+                <label style="font-family: Roboto Condensed; font-weight: bold;"><input type="checkbox" name="volunteer-options" value="Awareness Campaigns"><b>Awareness Campaigns</b></label><br>
+                <label style="font-family: Roboto Condensed; font-weight: bold;"><input type="checkbox" name="volunteer-options" value="Workshops"><b>Workshops</b></label><br>
+                <label style="font-family: Roboto Condensed; font-weight: bold;"><input type="checkbox" name="volunteer-options" value="Other"><b>Other</b></label><br>
+            </div>
+
+            <button type="submit" class="cta-submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Thanks for Helping The Community</p>
+        <p><a href="">Have a comment??</a></p>
+    </footer>
+</body>
+</html>
